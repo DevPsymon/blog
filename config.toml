@@ -1,0 +1,13 @@
+title = "PSYMON"
+baseURL = "https://devpsymon.github.io"
+languageCode = "kr-ko"
+theme = "hugo-hello-programmer-theme"
+
+paginate = 2
+
+disqusShortname = "XXXX"
+googleAnalytics = "UA-157261363-1"
+
+[author]
+    name = "PSYMON"
+    email = "seongyeol.dev@gmail.com"
