@@ -55,12 +55,12 @@ h5 {
 }
 
 a, a:visited {
-  color: #8C8CD9;
+  color: #0476D9 ;
   text-decoration: none;
 }
 
 a:hover {
-	color: #6666FF;
+	color: #0460D9;
 }
 
 pre {
@@ -195,8 +195,8 @@ bb {
   padding-bottom: 3px;
 }
 .navbar > .menu > ul > li > a:hover {
-  border-bottom: #00b2a0 solid 4px;
-  color: #00b2a0;
+  border-bottom: #0460D9 solid 4px;
+  color: #0460D9;
   font-weight: 700;
 }
 .navbar .search {
@@ -300,7 +300,7 @@ bb {
   display: inline-block;
   padding: 1px 5px 1px 5px;
   border-radius: 5px;
-  background-color: #8C8CD9;
+  background-color: #0476D9 ;
   font-size: 0.75em;
   color: white;
 }
@@ -331,14 +331,14 @@ bb {
 }
 
 .post-meta h1 {
-  color: #8C8CD9;
+  color: #0476D9 ;
   margin-top: 0px;
   margin-bottom: 30px;
   line-height: 1.2em;
 }
 
 .post-meta h1:hover {
-	color: #6666FF;
+	color: #0460D9;
 }
 
 
@@ -422,8 +422,8 @@ bb {
 }
 
 .share a:hover {
-  color: #8C8CD9;
-  border-color: #8C8CD9;
+  color: #0476D9 ;
+  border-color: #0476D9 ;
 }
 
 .post-comment {
@@ -436,12 +436,9 @@ bb {
 
 .paging {
   margin: 20px 0px 15px 0px;
-  color: #8C8CD9;
+  color: #0476D9 ;
   font-size: 1.4rem;
   text-align: center;
-}
-
-.paging:hover {
 }
 
 .paging a, a:visited {
@@ -510,7 +507,7 @@ bb {
 
 .categories li:hover {
   background-color: #e3e3e3;
-  border-left: 4px solid #6666FF;
+  border-left: 4px solid #0460D9;
   padding-left: 4px;
 }
 
@@ -542,7 +539,7 @@ bb {
 
 .subcategories li:hover {
   background-color: #e3e3e3;
-  border-left: 4px solid #6666FF;
+  border-left: 4px solid #0460D9;
   padding-left: 4px;
 }
 

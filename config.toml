@@ -1,9 +1,10 @@
 title = "PSYMON"
 baseURL = "https://devpsymon.github.io"
 languageCode = "kr-ko"
+#DefaultContentLanguage = "kr"
 theme = "hugo-hello-programmer-theme"
 
-paginate = 2
+paginate = 12
 
 disqusShortname = "XXXX"
 googleAnalytics = "UA-157261363-1"
@@ -11,4 +12,6 @@ googleAnalytics = "UA-157261363-1"
 [author]
     name = "PSYMON"
     email = "seongyeol.dev@gmail.com"
-    
+
+[params]
+    utterancesEnable = true

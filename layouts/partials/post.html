@@ -15,40 +15,7 @@
   <section class="post-content">
     {{ .Content }}
   </section>
-  <div class="share">    
-    <a
-      href="//www.facebook.com/sharer.php?src=bm&u={{ .Permalink }}&t={{ .Title }}"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-facebook"></i
-    ></a>
-    <a
-      href="//twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&tw_p=tweetbutton"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-twitter"></i
-    ></a>
-    <a
-      href="//getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-get-pocket"></i
-    ></a>
-    <a
-      href="//plus.google.com/share?url={{ .Permalink }}"
-      onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"
-      ><i class="fa fa-google-plus"></i
-    ></a>
-  </div>
   <div class="post-meta-code">
-    <div class="desc">
-      {{ i18n "postAuthorPrefix" }}
-      {{ with.Params.author }}
-      {{ . }}
-      {{ else }}
-      <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.name }}</a>
-      {{ end }}
-      {{ i18n "postAuthorPostfix" }}
-      <span class="highlight">{{ i18n "postDatetime" .Date }}</span> 
-      {{ i18n "postDatetimePostfix" }}
-    </div>
     <div class="desc">
       {{ if isset .Params "categories" }}
       <div class="desc">
@@ -69,6 +36,9 @@
       </div>
     </div>
   </div>  
+  {{if.Site.Params.utterancesEnable}}
+  {{- partial "utterances.html" . -}}
+  {{end}}
   {{ if not .Site.BuildDrafts }}
   <div class="post-comment">    
     {{ template "_internal/disqus.html" . }}    
