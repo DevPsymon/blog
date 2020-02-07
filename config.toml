@@ -5,8 +5,6 @@ languageCode = "kr-ko"
 theme = "hugo-hello-programmer-theme"
 
 paginate = 12
-
-disqusShortname = "XXXX"
 googleAnalytics = "UA-157261363-1"
 
 [author]
@@ -15,3 +13,8 @@ googleAnalytics = "UA-157261363-1"
 
 [params]
     utterancesEnable = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  subcategory = "subcategories"

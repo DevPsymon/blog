@@ -4,4 +4,9 @@
 
 {{ partial "post.html" . }}
 
+{{if.Site.Params.utterancesEnable}}
+        {{- partial "utterances.html" . -}}
+{{end}}
+
 {{ partial "footer.html" . }}
+

@@ -36,9 +36,6 @@
       </div>
     </div>
   </div>  
-  {{if.Site.Params.utterancesEnable}}
-  {{- partial "utterances.html" . -}}
-  {{end}}
   {{ if not .Site.BuildDrafts }}
   <div class="post-comment">    
     {{ template "_internal/disqus.html" . }}    
