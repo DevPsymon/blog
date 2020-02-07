@@ -4,13 +4,16 @@
 [menuCategories]
 other = "Categories"
 
+[menuSubCategories]
+other = "Sub Categories"
+
 [menuTags]
 other = "Tags"
 
 [menuProjects]
 other = "Projects"
 
-[menuAboutMe]
+[menuAbout]
 other = "About Me"
 
 [menuBurgerTitle]

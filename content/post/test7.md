@@ -2,9 +2,9 @@
 title: "Test7"
 date: 2020-02-05T15:35:19+09:00
 categories: ["programming"]
-subcategories: ["web"]
-tags: []
-cover: ""
+subcategories: ["Python"]
+tags: ["Test"]
+cover: "/images/blog_image/bg-index.jpg"
 ---
 
 
@@ -81,14 +81,11 @@ namespace::name(name & ths)
 >> 브블록
 >>> 브브브블
 
-|| 이건 뭐였지
 
 ----------
 가로줄 
 
 ---------
-
-링크[www.naver.com]
 
 `$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $` 
 

@@ -1,11 +1,16 @@
 {{ partial "header.html" . }}
-
+    
 {{ partial "mathjax-header.html" . }}
 
+{{ if eq .Title "About Me" }}
+{{ partial "about.html" . }}
+{{ else }}
 {{ partial "post.html" . }}
 
 {{if.Site.Params.utterancesEnable}}
         {{- partial "utterances.html" . -}}
+{{end}}
+
 {{end}}
 
 {{ partial "footer.html" . }}

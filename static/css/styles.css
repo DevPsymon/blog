@@ -105,6 +105,39 @@ dt {
   font-weight: bold;
 }
 
+img {
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+img[src$='#center30'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+img[src$='#center50'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img[src$='#center75'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750%;
+}
+
+img[src$='#center100'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 table {
   margin-right: auto;
   margin-left: auto;
@@ -391,7 +424,7 @@ bb {
   margin-bottom: 20px;
   padding: 10px;
   color: #A0A0A0;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 1.6em;
 }

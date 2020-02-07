@@ -4,7 +4,7 @@ languageCode = "kr-ko"
 #DefaultContentLanguage = "kr"
 theme = "hugo-hello-programmer-theme"
 
-paginate = 12
+paginate = 7
 googleAnalytics = "UA-157261363-1"
 
 [author]

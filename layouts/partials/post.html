@@ -19,15 +19,24 @@
     <div class="desc">
       {{ if isset .Params "categories" }}
       <div class="desc">
-        <span class="fixed-desc">_{{ i18n "menuCategories" }}</span>
+        <span class="fixed-desc"> 항목</span>
         {{ $baseUrl := .Site.BaseURL }}
         {{ range.Params.categories }}
-        <a href="{{ $baseUrl }}/categories/{{ . | urlize }}">#{{ . }}</a>
+        <a href="{{ $baseUrl }}/categories/{{ . | urlize }}">_{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ if isset .Params "subcategories" }}
+      <div class="desc">
+        <span class="fixed-desc"> 세부 항목</span>
+        {{ $baseUrl := .Site.BaseURL }}
+        {{ range .Params.subcategories }}
+        <a href="{{ $baseUrl }}/subcategories/{{ . | urlize }}">_{{ . }}</a>
         {{ end }}
       </div>
       {{ end }}
       <div class="desc">
-        <span class="fixed-desc">_{{ i18n "menuTags" }}</span>
+        <span class="fixed-desc"> 테그</span>
         {{ with.Params.tags }}
         {{ range . }}
         <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
