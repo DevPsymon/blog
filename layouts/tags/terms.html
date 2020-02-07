@@ -7,7 +7,7 @@
     {{ $data := .Data }}
     {{ range $key,$value := .Data.Terms.Alphabetical }}
     <div class="tag">
-      <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}">
+      <a href="{{ $baseurl }}/{{ $data.Plural }}/{{ $value.Name | urlize }}">
         {{ $value.Name }} <small>({{ $value.Count }})</small>
       </a>
     </div>
