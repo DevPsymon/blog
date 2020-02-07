@@ -39,7 +39,7 @@
         <span class="fixed-desc"> 테그</span>
         {{ with.Params.tags }}
         {{ range . }}
-        <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
+        <a href="{{ $.Site.BaseURL }}/tags/{{ . | urlize }}">#{{ . }}</a>
         {{ end }}
         {{ end }}
       </div>
