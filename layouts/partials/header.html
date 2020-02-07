@@ -18,7 +18,7 @@
   {{ if .Params.cover }}
   <meta property="og:image" content="{{ .Params.cover | absURL }}">
   {{ else }}
-  <meta property="og:image" content="{{ "images/thumbnail.png" | absURL }}">
+  <meta property="og:image" content="{{ "images/thumbnail/thumbnail.png" | absURL }}">
   {{ end }}
   {{ range .Params.tags }}
   <meta property="og:tags" content="{{ . }}">
