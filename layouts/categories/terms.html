@@ -2,6 +2,7 @@
 
 <div class="categories">
   <h1>CATEGORIES</h1>
+
   <ul>
     {{ $baseurl := .Site.BaseURL }}
     {{ $data := .Data }}
@@ -20,7 +21,7 @@
       {{ range $key, $value := $site.Taxonomies.subcategories.Alphabetical }}
       {{ if in $list $value.Name }}
         <li>
-          <a href="{{ $baseurl }}subcategories/{{ $value.Name | urlize }}">
+          <a href="{{ $baseurl }}/subcategories/{{ $value.Name | urlize }}">
             <i class="fa fa-angle-right icon" aria-hidden="true"></i>
             {{ humanize $value.Name }}
             <div class="count">{{ $value.Count }} posts</div>

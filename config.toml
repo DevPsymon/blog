@@ -16,5 +16,6 @@ googleAnalytics = "UA-157261363-1"
 
 [taxonomies]
   category = "categories"
-  tag = "tags"
   subcategory = "subcategories"
+  tag = "tags"
+ 
