@@ -1,9 +1,10 @@
 ---
-title: "Test7"
-date: 2020-02-05T15:35:19+09:00
+title: "개발자 전직 2년 회고"
+date: 2020-02-09 19:40:44
 categories: ["programming"]
 subcategories: ["Python"]
 tags: ["Test"]
+draft: true
 cover: "/images/blog_image/bg-index.jpg"
 ---
 
