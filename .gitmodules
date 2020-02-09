@@ -2,3 +2,8 @@
 	path = public
 	url = https://github.com/DevPsymon/DevPsymon.github.io.git
 	branch = master
+
+[submodule "hugo-hello-programmer-theme"]
+	path = themes/hugo-hello-programmer-theme
+	url = https://github.com/DevPsymon/hugo-hello-programmer-theme.git
+	branch = master
