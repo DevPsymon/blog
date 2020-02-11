@@ -1,29 +1,25 @@
 ---
-title: "개발자 전직 2년 회고"
-date: 2020-02-09 19:40:44
+title: "Templete"
+date: 2020-02-10 20:30:28
 categories: ["programming"]
-subcategories: ["Python"]
-tags: ["Test"]
+subcategories: ["c++"]
+tags: ["test"]
 draft: true
-cover: "/images/blog_image/bg-index.jpg"
 ---
 
-
 # 제목
-본문 좀 쓰고
+본문 입니다.
 
-## 1제목
-### 소1제목
+## 소제목
+### 소소제목
 
-1단계 제목
-====
+--------
+가로줄 입니다.
 
-2단계 제목
 --------
 
-문단을 나눠볼까요?
-
-이렇게 합니다.
+문단을 나눠볼까요? 공백을 세개 넣으세요.   
+이렇게 됩니다.
 
 * 목록 하나
 * 목록 둘
@@ -33,20 +29,20 @@ cover: "/images/blog_image/bg-index.jpg"
 
 - 리스트
   * 안에
-    1. 더 안에
-    2. 넣을 수도 
-  * 있습니다.
-- 그렇죠?
+  * 리스트입니다.
 
-| 제목1 | 제목2 |
+이건 표입니다.
+
+| 제목1 |  제목2 |
 |:---:|---:|
-|    |    |
-|    |    |
+|  아무거나  |  넣을게요  |
+|  그래도  |  되네요.   |
 
 **굵게** 쓰거나 __두껍게__ 쓰거나
 
 ~~취소 문자~~
 
+코드는 이렇게 씁니다.
 ```C++
 namespace::name(name & ths)
 {
@@ -54,7 +50,9 @@ namespace::name(name & ths)
     return name;
 }
 ```
-
+# 제목
+## 소제목
+### 소소제목
 
 *기울게* 쓰는건 _이렇게_ 씁니다.
 
@@ -62,17 +60,8 @@ namespace::name(name & ths)
 
 `import antigravity`
 
-#!/usr/bin/env clojure
-     (println "Hello, World!")
-
 [링크](https://naver.com)
 
-
-## 소제목
-
-다시 본문 써 주고
-
-### 소소 제목입니다.
 
 1. 목록
 2. 다시
@@ -82,12 +71,10 @@ namespace::name(name & ths)
 >> 브블록
 >>> 브브브블
 
-
-----------
-가로줄 
-
----------
+수식은 이렇게 씁니다.   
 
 `$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $` 
+
+gits는 이렇게 넣습니다.   
 
 {{<gist test 2-3>}}

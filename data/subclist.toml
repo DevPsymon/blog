@@ -1,2 +1,2 @@
  programming = ["c++", "python", "opencv", "image processing", "tensorflow"]
- essay = ["book"]
+ essay = ["book","retrospect"]
