@@ -1,7 +1,7 @@
 ---
 title: "Templete"
 date: 2020-02-10 20:30:28
-categories: ["programming"]
+categories: ["프로그래밍"]
 subcategories: ["c++"]
 tags: ["test"]
 draft: true
